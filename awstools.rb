@@ -1,6 +1,6 @@
 class Awstools < Formula
-  desc "blabla"
-  homepage "homepage"
+  desc "A few helpful AWS tools"
+  homepage "https://github.com/sam701/awstools"
   url "https://github.com/sam701/awstools/releases/download/0.9.3/awstools_darwin_amd64"
   version "0.9.3"
   sha256 "b61b8aaff1853cfc68b8b7d1949278089d076fa50ffde0784cc633b68fdcb993"
