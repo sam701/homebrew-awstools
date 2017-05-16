@@ -1,9 +1,9 @@
 class Awstools < Formula
   desc "A few helpful AWS tools"
   homepage "https://github.com/sam701/awstools"
-  url "https://github.com/sam701/awstools/releases/download/0.12.0/awstools_darwin_amd64"
-  version "0.12.0"
-  sha256 "ab9c1909ccbcbdc8c94811ddc8e990c3f420fd9a184e23050d666b9972d48510"
+  url "https://github.com/sam701/awstools/releases/download/0.13.0/awstools_darwin_amd64"
+  version "0.13.0"
+  sha256 "482f79b702a8a677cf13ba7f8dc98aa8ac3a64b12cfb295ad44a1b4688f6cbe8"
 
   bottle :unneeded
 
@@ -14,7 +14,7 @@ class Awstools < Formula
 
   test do
     actual = pipe_output("#{bin}/awstools --version")
-    expected = "awstools version 0.12.0\n"
+    expected = "awstools version 0.13.0\n"
     assert_equal expected, actual
   end
   
