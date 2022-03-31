@@ -5,8 +5,6 @@ class Awstools < Formula
   version "0.13.1"
   sha256 "6f3f0c6066d5a942df9ebc19d4b140f84e60b05773dbcfc166af48868e99c090"
 
-  bottle :unneeded
-
   def install
     mv "awstools_darwin_amd64", "awstools"
     bin.install "awstools"
